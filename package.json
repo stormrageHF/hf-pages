@@ -1,0 +1,39 @@
+{
+  "name": "hf-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "hf-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/stormrageHF/hf-pages#readme",
+  "bugs": {
+    "url": "https://github.com/stormrageHF/hf-pages/issues"
+  },
+  "license": "MIT",
+  "author": "stormrageHF <794531872@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormrageHF/hf-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
